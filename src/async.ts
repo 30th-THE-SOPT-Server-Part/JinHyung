@@ -69,5 +69,45 @@ order()
 
 Promise.resolve(123).then(res => {
     console.log(res)
-    throw new Error('error executed!!!');
+    // throw new Error('error executed!!!');
 })
+
+let asyncFunc1 = (msg: string): Promise<string> => {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve(`asyncFunc1 - ${msg}`)
+        })
+    })
+}
+
+let asyncFunc2 = (msg: string): Promise<string> => {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            resolve(`asyncFunc2 - ${msg}`)
+        })
+    })
+}
+
+let promiseMain1 = (): void => {
+    asyncFunc1("hello?")
+    asyncFunc2("Bye!")
+}
+
+let promiseMain2 = (): void => {
+    asyncFunc1('hi').then((result: string) => {
+        console.log("RRR");
+        return asyncFunc2("Hello")
+    }).then((result: string) => {
+        console.log("VVV")
+    })
+}
+
+const ILoveAsyncAwait = async(): Promise<void> => {
+    let result = await asyncFunc1("Hello.");
+    console.log(result);
+
+    let result2 = await asyncFunc2("Bye.");
+    console.log(result2);
+};
+
+ILoveAsyncAwait();
