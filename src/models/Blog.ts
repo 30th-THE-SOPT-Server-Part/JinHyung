@@ -20,5 +20,5 @@ const BlogSchema = new mongoose.Schema({
     commenters: [UserSchema]
 });
 
-export default mongoose.model<UserInfo & mongoose.Document>("User", UserSchema);
 export {UserSchema}
+export default mongoose.model<UserInfo & mongoose.Document>("User", UserSchema);
