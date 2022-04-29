@@ -5,7 +5,7 @@ import util from "../modules/util"
 
 
 import { BlogCreateRequestDto } from "../interfaces/blog/BlogCreateRequestDto";
-// import { BlogService } from "../services";
+import { BlogService } from "../services";
 import { BlogUpdateRequestDto } from "../interfaces/blog/BlogUpdateRequestDto";
 
 const createBlog = async(request: Request, response: Response) => {
