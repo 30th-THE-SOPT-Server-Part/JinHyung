@@ -10,7 +10,8 @@ const responseMessage = {
 
     INTERNAL_SERVER_ERROR: '서버 내부 오류',
 
-    CREATED_BLOG_SUCCESS: "블로그 글 등록 성공"
+    CREATED_ARTICLE_SUCCESS: "블로그 글 등록 성공",
+    READ_ARTICLE_SUCCESS: "블로그 글 읽기 성공"
 }
 
 export default responseMessage;
