@@ -10,9 +10,14 @@ const message = {
     INVALID_PASSWORD: '잘못된 비밀번호입니다.',
     SIGNIN_USER_SUCCESS: '성공',
 
-    CREATE_MOVIE_SUCCESS: "영화 생성 성공",
-    CREATE_COMMENT_SUCCESS: "영화 코멘트 생성 성공",
-    UPDATE_MOVIE_COMMENT_SUCCESS: "영화 리뷰 수정 성공",
+    CREATE_MOVIE_SUCCESS: '영화 정보 생성 성공',
+    FIND_MOVIE_SUCCESS: '영화 정보 조회 성공',
+    UPDATE_MOVIE_SUCCESS: '영화 정보 수정 성공',
+    DELETE_MOVIE_SUCCESS: '영화 정보 삭제 성공',
+    CREATE_MOVIE_COMMENT_SUCCESS: '영화 코멘트 생성 성공',
+    UPDATE_MOVIE_COMMENT_SUCCESS: '영화 코멘트 수정 성공',
+    SEARCH_MOVIE_SUCCESS: '영화 검색 성공',
+    SEARCH_MOVIE_NO_RESULT: '영화 검색 결과 없음',
 
     READ_USER_SUCCESS: '유저 조회 성공',
     CREATE_USER_SUCCESS: '유저 생성 성공',
