@@ -14,6 +14,11 @@ const message = {
     CREATE_COMMENT_SUCCESS: "영화 코멘트 생성 성공",
     UPDATE_MOVIE_COMMENT_SUCCESS: "영화 리뷰 수정 성공",
 
+    READ_USER_SUCCESS: '유저 조회 성공',
+    CREATE_USER_SUCCESS: '유저 생성 성공',
+    DELETE_USER_SUCCESS: '유저 삭제 성공',
+    UPDATE_USER_SUCCESS: '유저 업데이트 성공',
+
     CREATE_REVIEW_SUCCESS: '리뷰 작성 성공',
     READ_REVIEW_SUCCESS: '리뷰 조회 성공',
 
@@ -21,6 +26,8 @@ const message = {
     CREATE_BLOG_SUCCESS: '블로그 생성 성공',
     DELETE_BLOG_SUCCESS: '블로그 삭제 성공',
     UPDATE_BLOG_SUCCESS: '블로그 업데이트 성공',
+
+    CREATE_FILE_SUCCESS: '파일 업로드 성공',
 }
 
 export default message;
