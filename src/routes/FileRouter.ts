@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { FileController } from "../controller";
+import { FileController } from "../controllers";
 import upload from "../config/multer";
 
 const router: Router = Router();
