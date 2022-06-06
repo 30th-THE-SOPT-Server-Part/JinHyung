@@ -16,6 +16,11 @@ const message = {
 
     CREATE_REVIEW_SUCCESS: '리뷰 작성 성공',
     READ_REVIEW_SUCCESS: '리뷰 조회 성공',
+
+    READ_BLOG_SUCCESS: '블로그 조회 성공',
+    CREATE_BLOG_SUCCESS: '블로그 생성 성공',
+    DELETE_BLOG_SUCCESS: '블로그 삭제 성공',
+    UPDATE_BLOG_SUCCESS: '블로그 업데이트 성공',
 }
 
 export default message;
